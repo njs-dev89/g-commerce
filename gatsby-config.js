@@ -18,13 +18,5 @@ module.exports = {
         downloadFiles: true,
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
   ],
 };
